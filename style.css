@@ -1,0 +1,152 @@
+* {box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    z-index: 20;
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    padding: 40px;
+    padding-top: 15px;
+    color: aliceblue;
+    gap: 5px;
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+h1.brand {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2.notkevin {
+    text-transform: lowercase;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 45px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.audio {
+    position: fixed;
+    right: 20px;
+}
+
+
+a {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 0;
+}
+
+
+
+section {
+    height: 100vh;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: 1px;
+
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+.launch {
+    position:relative;
+    background-image: url(./images/space\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.launch div {
+    position:absolute;
+    bottom: 100px;
+    left: 75px;
+}
+
+.tickets {
+    position:relative;
+    background-image: url(./images/space\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tickets div {
+    position:absolute;
+    bottom: 100px;
+    left: 75px;
+}
+
+.deals {
+    position:relative;
+    background-image: url(./images/space\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.deals div {
+    position:absolute;
+    bottom: 100px;
+    left: 75px;
+}
+
+.readmore {
+    border: 2px solid white;
+    padding: 10px;
+    text-decoration: solid;
+}
+
+
+.readmore:hover {
+    background-color: aliceblue;
+    color:black;
+}
+
+
+footer {
+    text-align:center;
+    font-size: xx-small;
+    color:grey;
+    padding: 20px;
+    background: transparent;
+}
