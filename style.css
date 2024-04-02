@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: auto;
+    overflow-y: scroll;
 }
 
 
@@ -85,7 +85,7 @@ h2 {
 
 .launch {
     position:relative;
-    background-image: url(./Images/space\_1.jpg);
+    background-image: url(./images/space\_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,7 +99,7 @@ h2 {
 
 .tickets {
     position:relative;
-    background-image: url(./Images/space\_2.jpg);
+    background-image: url(./images/space\_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -113,7 +113,7 @@ h2 {
 
 .deals {
     position:relative;
-    background-image: url(./Images/space\_3.jpg);
+    background-image: url(./images/space\_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
