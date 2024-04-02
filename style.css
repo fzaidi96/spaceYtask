@@ -85,7 +85,7 @@ h2 {
 
 .launch {
     position:relative;
-    background-image: url(./images/space\_1.jpg);
+    background-image: url(./images/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,7 +99,7 @@ h2 {
 
 .tickets {
     position:relative;
-    background-image: url(./images/space\_2.jpg);
+    background-image: url(./images/2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -113,7 +113,7 @@ h2 {
 
 .deals {
     position:relative;
-    background-image: url(./images/space\_3.jpg);
+    background-image: url(./images/3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
